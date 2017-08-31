@@ -16,9 +16,9 @@ Steps:-
 3. Now in the calling function create object pointer to the newly added dialog class.
 4. call create and show dialog function to display the modeless dialog.
 e.g
-  CModeLessDlg *obj;  //creating object pointer for CModeless class which is class for modeless dialog. 
-	obj = new CModeLessDlg(this); //initializing object pointer
-	obj->Create(CModeLessDlgJMV::IDD);//creating the Modeless dialog
-	obj->ShowWindow(SW_SHOW);//Showing the dialog
+  	CModeLessDlg *obj;  				//creating object pointer for CModeless class which is class for modeless dialog. 
+	obj = new CModeLessDlg(this); 		//initializing object pointer
+	obj->Create(CModeLessDlgJMV::IDD);	//creating the Modeless dialog
+	obj->ShowWindow(SW_SHOW);		//Showing the dialog
  
 5. After this you need to destroy it using destroy function.
