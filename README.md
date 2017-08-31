@@ -22,3 +22,6 @@ e.g
 	obj->ShowWindow(SW_SHOW);		//Showing the dialog
  
 5. After this you need to destroy it using destroy function.
+
+
+Ex :- ModelessEx Application is build using VS 10.
